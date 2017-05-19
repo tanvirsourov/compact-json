@@ -1,5 +1,5 @@
 # compact-json
-A modified JSON Format to make data more compact
+A modified JSON Format to make data more compact (For small data without repetition, this data may increase, but for data with repetition, this will be the feasible solution
 
 # A Normal JSON File Structure
 ```
