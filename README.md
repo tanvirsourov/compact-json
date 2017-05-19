@@ -96,36 +96,36 @@ A modified JSON Format to make data more compact (For small data without repetit
 # CJSON or Compact JSON File Structure
 ```
 {
-    "v_a_l_u_e":{
-        "a":"users",
-        "b":"id",
-        "c":"name",
-        "d":"work",
-        "e":"email",
-        "f":"dob",
-        "g":"address",
-        "h":"city",
-        "i":"optedin",
-        "j":"images",
-        "k":"url",
-        "l":"coordinates",
-        "m":"price",
-        "n":"others",
-        "o":"premium",
-        "p":"bonus",
-        "q":"gender",
-        "r":"organization",
-        "s":"location",
-        "t":"population",
-        "u":"age",
-        "v":"priority",
-        "w":"is_admin",
-        "x":"author",
-        "y":"page",
-        "z":"brand",
-        "a1":"value",
-        "b1":"easy"
-    },
+    "v_a_l_u_e":[
+        "users",
+        "id",
+        "name",
+        "work",
+        "email",
+        "dob",
+        "address",
+        "city",
+        "optedin",
+        "images",
+        "url",
+        "coordinates",
+        "price",
+        "others",
+        "premium",
+        "bonus",
+        "gender",
+        "organization",
+        "location",
+        "population",
+        "age",
+        "priority",
+        "is_admin",
+        "author",
+        "page",
+        "brand",
+        "value",
+        "easy"
+    ],
     "a":[
         {
             "b":0,
@@ -218,3 +218,6 @@ A modified JSON Format to make data more compact (For small data without repetit
 As a result, the JSON file gets compressed and data is reduced. Also, the server side response sending and receiving becomes less data consuming.
 
 A parser corresponding to this architecture can be used to parse the CJSON.
+
+The value of the "v_a_l_u_e" array will be replaced by the following characters:
+a,b,c,d,e,...,y,z,a1,b1,c1,...,y1,z1,a2,b2,c2,...,y2,z2,... ... ...
