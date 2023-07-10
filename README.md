@@ -120,6 +120,7 @@ A modified JSON Format to make data more compact (For small data without repetit
         "age",
         "priority",
         "is_admin",
+        "books",
         "author",
         "page",
         "brand",
@@ -194,22 +195,22 @@ A modified JSON Format to make data more compact (For small data without repetit
             "w":0
         }
     ],
-    "books":[
+    "x":[
         {
-            "x":"Mr X",
+            "y":"Mr X",
             "c":"Compact JSON",
-            "y":1,
-            "z":"Socian Ltd",
-            "a1":"yes",
-            "b1":"yes"
+            "z":1,
+            "a1":"Socian Ltd",
+            "b1":"yes",
+            "c1":"yes"
         },
         {
-            "x":"Mr Y",
+            "y":"Mr Y",
             "c":"Compact JSON 2",
-            "y":1,
-            "z":"Technolive",
-            "a1":"yes",
-            "b1":"yes"
+            "z":1,
+            "a1":"Technolive",
+            "b1":"yes",
+            "c1":"yes"
         }
     ]
 }
